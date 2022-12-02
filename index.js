@@ -641,7 +641,7 @@ if(config.twitch != undefined && config.twitch.token != undefined && config.twit
                 for(let i = 0; i < srm.length; i++) {
                     if(srm[i].key == key) {
                         srm[i].requested++;
-                        client.say(channel, `@${tags.username} requested ${srm[i].key}. It has now been requested ${srm[i].requested}`)
+                        client.say(channel, `!test`)
                         return
                     }
                 }
